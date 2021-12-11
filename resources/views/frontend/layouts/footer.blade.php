@@ -21,7 +21,6 @@
                     @endforeach
                 </ul>
             </div>
-
         </div>
 
         <div class="footer-bottom d-grid grid-md-2 border-top pt-30 mt-30">
