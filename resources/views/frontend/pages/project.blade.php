@@ -35,7 +35,7 @@ $products_side = \App\Models\Content::where('type', 'pagecontent')->where('name'
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 p-3">
                                 <img class="lozad product-img" 
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 data-src="{{ asset($product->thumb) }}" alt="{{ $product->{'name_'.session('locale')} }}">
@@ -53,11 +53,11 @@ $products_side = \App\Models\Content::where('type', 'pagecontent')->where('name'
                         
                         
                     </div>
-                    <div class="col-md-6">              
+                    <div class="col-md-4 offset-md-1">              
                         <h3>{{ $product->{'name_'.session('locale')} }}</h3>
                         <div class="product-category">
                             {!! $product->category->{'name_'.session('locale')} !!}
-                        </div>
+                        </div><br>
                         <div class="product-description">
                             {!! $product->{'desc_'.session('locale')} !!}
                         </div>
@@ -74,7 +74,10 @@ $products_side = \App\Models\Content::where('type', 'pagecontent')->where('name'
                             </div>
                             @csrf
                             <div>
-                                <a data-id="{{ $product->id }}" class="btn-addtocart"><i data-feather="shopping-cart"></i></a>
+                                <a data-id="{{ $product->id }}" class="btn-addtocart inner-page">
+                                    <i data-feather="shopping-cart"></i>
+                                    {{ __('main.add_to_cart') }}
+                                </a>
                             </div>
                             
                         </form>

@@ -46,6 +46,15 @@
                                     </div>
                                 </div>
                                 @endforeach
+                                <br>
+                                @foreach(['az', 'en', 'ru', 'de'] as $lang)
+                                <div class="mb-3 row">
+                                    <label class="col-sm-3 col-form-label">Əlavə Məlumat ({{ strtoupper($lang) }})</label>
+                                    <div class="col-sm-9">
+                                    <textarea class="form-control" type="text" placeholder="nümunə" name="desc_{{ $lang }}">{{ $item->{'desc_'.$lang} }}</textarea>
+                                    </div>
+                                </div>
+                                @endforeach
 
                                 <div class="mb-3 row">
                                     <label class="col-sm-3 col-form-label">Qiymət (₼-la)</label>

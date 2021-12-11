@@ -26,7 +26,7 @@
 
                             <h1 class="title  p-relative">{{ $slider->{'name_'.session('locale')} }}</h1>
                             <a href="/products"
-                                        class="effect-ajax link-custom v-light background-main image-zoom move-circle mt-30"
+                                        class="link-custom v-light background-main image-zoom move-circle mt-30"
                                         data-dsn="parallax">{{ __('main.products') }}</a>
                             <div class="d-grid grid-sm-2 mt-30">
                                 @foreach(\App\Models\Service::take(2)->get() as $service)

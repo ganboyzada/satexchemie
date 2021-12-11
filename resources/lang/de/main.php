@@ -25,6 +25,7 @@ return [
     'follow_us' => 'Folgen Sie uns',
     'certificates' => 'Zertifikate',
     'checkout' => 'Auschecken',
+    "add_to_cart" => 'In den Warenkorb legen',
 
     'copyright' => '© Satex '.date('Y').'. Alle Rechte vorbehalten.',
 

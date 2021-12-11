@@ -57,6 +57,7 @@ class ProjectController extends Controller
         
         foreach(['en', 'az', 'ru', 'de'] as $lang){
             $item->{'name_'.$lang} = $request->{'name_'.$lang};
+            $item->{'desc_'.$lang} = $request->{'desc_'.$lang};
         }
 
         $item->save();
@@ -157,6 +158,7 @@ class ProjectController extends Controller
         
         foreach(['en', 'az', 'ru', 'de'] as $lang){
             $item->{'name_'.$lang} = $request->{'name_'.$lang};
+            $item->{'desc_'.$lang} = $request->{'desc_'.$lang};
         }
 
         $item->save();

@@ -25,6 +25,7 @@ return [
     'follow_us' => 'Bizi izləyin',
     'certificates' => 'Sertifikatlar',
     'checkout' => 'Sifarişin verilməsi',
+    "add_to_cart" => 'Səbətə əlavə et',
 
     'copyright' => '© Satex '.date('Y').'.Bütün hüquqlar qorunur',
 

@@ -25,6 +25,7 @@ return [
     'follow_us' => 'Подписывайтесь на нас',
     'certificates' => 'Сертификаты',
     'checkout' => 'Отладка',
+    "add_to_cart" => 'Добавить в корзину',
 
     'copyright' => '© Satex '.date('Y').'.Все права защищены.',
 

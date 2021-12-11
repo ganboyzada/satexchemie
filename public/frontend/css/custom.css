@@ -617,9 +617,8 @@ label {
 .btn-addtocart {
   background: var(--theme-color);
   /* padding: 10px 15px; */
-  border-radius: 100%;
+  border-radius: 300px;
   height: 45px;
-  width: 45px;
   padding-right: 3px;
   font-size: 16px;
   cursor: pointer;
@@ -628,6 +627,18 @@ label {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.btn-addtocart:not(.inner-page){
+  width: 45px;
+}
+
+.btn-addtocart.inner-page{
+  padding: 10px 20px;
+}
+
+.btn-addtocart.inner-page svg{
+  margin-right: 10px;
 }
 
 .cart-item .addtocart-toolbar {

@@ -254,6 +254,17 @@ $("#flip-back").click(function () {
   $(".flip-card-inner").removeClass("flipped");
 });
 
+function init_editors() {
+  var allEditors = document.querySelectorAll("textarea");
+  for (var i = 0; i < allEditors.length; ++i) {
+    ClassicEditor.create(
+      allEditors[i],
+      {
+        language: locale
+      });
+  }
+}
+
 function init_photo_removal() {
   $(".photo_deleter").click(function (e) {
     e.preventDefault();
@@ -312,6 +323,7 @@ function editresource(routename, id) {
           $(".js-example-basic-single").select2({
             placeholder: "Seçmək üçün klikləyin",
           });
+          init_editors();
           init_photo_removal();
           feather.replace();
         }, 600);
@@ -339,6 +351,8 @@ $('a[data-btn="edit"]').click(function () {
     tabsize: 2,
   });
 });
+
+init_editors();
 
 $('input[data-btn="status"]').on("click", function () {
   var routename = $(this).attr("data-routename");
