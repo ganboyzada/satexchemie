@@ -1,0 +1,137 @@
+:root {
+  --theme-deafult: #006ee3;
+  --theme-secondary: #004792;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff54;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+.table-lg td, .table-lg th {
+    padding: 0.9rem 1rem;
+}
+
+.bg-adaptive {
+  background: #ffffffa3;
+}
+
+.dark-only .bg-adaptive {
+  background: #1d1e26a3;
+}
+
+.admin-list {
+  height: 63vh;
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.logo-wrapper h2 {
+  letter-spacing: -1px;
+}
+
+.logo-wrapper h2 svg {
+  margin-left: -7px;
+}
+
+.profile-greeting .card-body {
+  background: #00000063;
+}
+
+.profile-greeting .greeting-user p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile-greeting .greeting-user p span {
+  font-weight: 300;
+}
+
+.profile-media {
+  height: 40px;
+}
+
+.theme-switcher {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+}
+
+.theme-switcher span {
+  margin-right: 5px;
+}
+
+.theme-switcher.dark {
+  background-color: #203454 !important;
+}
+
+.conex-dark,
+.conex-light {
+  display: none;
+}
+
+.dark-only .conex-light {
+  display: inline-block;
+}
+
+body:not(.dark-only) .conex-dark {
+  display: inline-block;
+}
+
+.card-body.admin-list {
+  padding-bottom: 120px;
+}
+
+.card .card-footer {
+  margin-top: -100px;
+  background: white;
+  position: relative;
+}
+
+.search-filter {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-radius: 100px;
+}
+
+.btn-bulk-upload {
+  position: absolute;
+  top: 80px;
+  right: 25px;
+  border-radius: 100px;
+}
+
+.admin-list img {
+  width: 75px;
+  object-fit: cover;
+}
+
+.admin-list thead {
+  position: sticky;
+  top: 0;
+  background: #2f333f;
+  z-index: 5;
+}
+
+#bulk-deleter {
+  padding: 3px 10px !important;
+  display: inline-flex;
+}
+
+body:not(.dark-only) .admin-list thead {
+  background: white;
+}
