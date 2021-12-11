@@ -29,7 +29,7 @@
 @section('main')
 <!-- ========== Service Section ========== -->
 <section class="services pb-section background-section dsn-container p-relative "
-    data-dsn-title="Our Service">
+    data-dsn-title="{{ __("main.about_us") }}">
     <div class="row">
         <div class="col-md-4 about-content">
             <div class="section-title">
@@ -41,7 +41,7 @@
             <div class="section-title">
                 <h2 class="heading-h2">{{ __('main.our_services') }}</h2>
             </div>
-            <div class="d-grid dsn-isotope grid-md-2 grid-lg-2" data-dsn-item=".service-item">
+            <div class="d-grid dsn-isotope grid-md-1 grid-lg-1 grid-xl-2" data-dsn-item=".service-item">
                 @foreach(\App\Models\Service::get() as $service)
                 <div class="service-item p-relative border">
                     <div class="service-item-inner style-box">
@@ -63,18 +63,7 @@
                     {{ __('main.certificates') }}
                 </h2>
             </div>
-
-            <div class="team-inner d-grid grid-lg-3 grid-md-2">
-                <div class="team-item grid-item">
-                    <div class="team-item-inner">
-                        
-                        <div class="box-img">
-                            <img height="400" src="{{ asset('frontend/img/certificates/cert.png') }}" alt="">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+            <img height="400" src="{{ asset('frontend/img/certificates/cert.png') }}" alt="">
         </div>
     </div>
     
