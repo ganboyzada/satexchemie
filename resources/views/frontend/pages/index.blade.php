@@ -21,7 +21,7 @@
                     <div class="d-flex  h-100 align-items-center  ">
                         <div class="dsn-container box-title p-relative z-index-1">
                             <div class="subtitle line-shap line-shap-after d-inline-block mb-20">
-                                <span class="p-10 background-section">{{ __('main.moto') }}</span>
+                                <span class="p-10 background-section">{{ __('main.motto') }}</span>
                             </div>
 
                             <h1 class="title  p-relative">{{ $slider->{'name_'.session('locale')} }}</h1>
