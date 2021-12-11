@@ -15,7 +15,7 @@
                     @foreach(\App\Models\Content::where('type','social')->get() as $social)
                     <li data-dsn="parallax">
                         <a href="{{ $social->link }}">
-                            <i data-feather="{{ $social->name }}"></i>
+                            <i data-feather="{{ $social->name }}"></i>Salam
                         </a>
                     </li>
                     @endforeach
