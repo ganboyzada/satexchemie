@@ -178,11 +178,10 @@
                             @foreach(\App\Models\Project::orderBy('id', 'desc')->take(6)->get() as $product)
                             <div class="col-md-4 col-lg-3">
                                 <div class="product-box">
-                                    <img class="product-img" 
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-dsn-src="{{ asset($product->thumb) }}" alt="{{ $product->{'name_'.session('locale')} }}"
-                                    >
-                                      
+                                    <a href="/products/{{ $product->id }}">
+                                        <img class="lozad product-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="{{ asset($product->thumb) }}" alt="{{ $product->{'name_'.session('locale')} }}">
+                                    </a>
                                     <form class="addtocart-toolbar">
                                         <span class="price">
                                             {{ $product->price }}₼

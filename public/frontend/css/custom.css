@@ -535,20 +535,27 @@ label {
 .addtocart-toolbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   flex-wrap: nowrap;
+  border-radius: 0;
+}
+
+.addtocart-toolbar:not(.inner-page){
   position: absolute;
   min-width: 70%;
   max-width: 100%;
   bottom: 20px;
   left: 50%;
+  justify-content: space-between;
   transform: translateX(-50%);
   z-index: 6;
-  background: rgba(71, 71, 71, 0.459);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
+  background: rgba(71, 71, 71, 0.459);
   padding: 0px 10px;
-  border-radius: 0;
+}
+
+.addtocart-toolbar.inner-page{
+  width: auto;
 }
 
 .cart-content ul {

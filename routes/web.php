@@ -115,12 +115,6 @@ Route::get('/dashboard', function () {
 
 require __DIR__.'/auth.php';
 
-
-
-
-
-
-
 // Route::get('/redirect', function (Request $request) {
 //     $request->session()->put('state', $state = Str::random(40));
 
@@ -146,7 +140,6 @@ Route::post('/add_order', function (Request $request) {
     ])->post('https://crm.amotech.tech/api/orders/store?order='.json_encode($request->item));
 
     return $response->json();
-
 });
 
 
@@ -162,11 +155,10 @@ Route::group(['middleware' => ['lang_check', 'reg_visit']], function () {
     Route::post('/mail-us', [InquiryController::class, 'send_inquiry'])->name('mail_us');
     Route::get('/products', function () { return view('frontend.pages.projects'); });
     Route::get('/products/{id}', function ($id) {
-        $project = \App\Models\Project::where('id', $id)->firstorfail();
-        $category = \App\Models\Navigation::where('id', $project->categ_id)->first();
-        $project_photos = \App\Models\ProjectPhoto::where('project_id', $project->id)->get();
+        $product = \App\Models\Project::where('id', $id)->firstorfail();
+        $category = \App\Models\Navigation::where('id', $product->categ_id)->first();
 
-        return view('frontend.pages.project', compact(['project_photos', 'project', 'category'])); 
+        return view('frontend.pages.project', compact(['product', 'category'])); 
     });
 
     Route::get('/{categ}', function ($categ) {

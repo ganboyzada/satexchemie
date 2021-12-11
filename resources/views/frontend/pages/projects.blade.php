@@ -33,33 +33,16 @@
                 @section('main')
                     <!-- ========== Work Section ========== -->
                     <section class="our-work dsn-container dsn-filter p-relative section-margin">
-                        {{--
-                        <div class="filtering d-flex justify-content-between mb-50">
-                            
-                            <div class="filtering-wrap w-auto">
-                                <div class="filtering">
-                                    <div class="selector"></div>
-                                    <button type="button" data-filter="*" class="active">
-                                        All
-                                    </button>
-                                    <button type="button" data-filter=".brand">Brand</button>
-                                    <button type="button" data-filter=".photography">Photography</button>
-                                    <button type="button" data-filter=".architecture">Architecture</button>
-                                    <button type="button" data-filter=".video">video</button>
-
-                                </div>
-                            </div>
-                        </div>
-                        --}}
 
                         <div class="row">
                             @foreach(\App\Models\Project::orderBy('id', 'desc')->get() as $product)
                             <div class="col-md-4 col-lg-3">
+                                
                                 <div class="product-box">
-                                    <img class="lozad product-img" 
-                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="{{ asset($product->thumb) }}" alt="{{ $product->{'name_'.session('locale')} }}">
-                                      
+                                    <a href="/products/{{ $product->id }}">
+                                        <img class="lozad product-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="{{ asset($product->thumb) }}" alt="{{ $product->{'name_'.session('locale')} }}">
+                                    </a>
                                     <form class="addtocart-toolbar">
                                         <span class="price">
                                             {{ $product->price }}₼
@@ -79,6 +62,7 @@
                                         
                                     </form>
                                 </div>
+                                
                             </div>
                             @endforeach
                         </div>

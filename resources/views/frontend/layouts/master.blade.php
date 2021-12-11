@@ -21,7 +21,7 @@
     <!-- custom styles (optional) -->
     <link href="{{ asset('frontend/css/plugins.css') }}" rel="stylesheet" />
     <link href="{{ asset('frontend/css/style.css') }}" rel="stylesheet" />
-    <link href="{{ asset('frontend/css/toast.css') }}?v={{ time() }}" rel="stylesheet" />
+    <link href="{{ asset('frontend/css/toast.css') }}?v=345345345" rel="stylesheet" />
     <link href="{{ asset('frontend/css/custom.css') }}?v={{ time() }}" rel="stylesheet" />
 </head>
 
@@ -29,7 +29,7 @@
 
 <body class="v-dark dsn-effect-scroll dsn-cursor-effect dsn-ajax">
 
-
+    {{--
     <!-- ========== Loading Page ========== -->
     <div class="preloader">
         <span class="percent v-middle">0</span>
@@ -45,6 +45,7 @@
         </h1>
     </div>
     <!-- ========== End Loading Page ========== -->
+    --}}
 
     @include('frontend.layouts.header')
     
