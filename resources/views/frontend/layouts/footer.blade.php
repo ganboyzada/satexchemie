@@ -13,9 +13,9 @@
                 <h5 class="sm-title-block mb-10">{{ __('main.follow_us') }}</h5>
                 <ul class="box-social">
                     @foreach(\App\Models\Content::where('type','social')->get() as $social)
-                    <li data-dsn="parallax">
+                    <li>
                         <a href="{{ $social->link }}">
-                            <i data-feather="{{ $social->name }}"></i>Salam
+                            <i data-feather="{{ $social->name }}"></i>
                         </a>
                     </li>
                     @endforeach
