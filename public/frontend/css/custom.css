@@ -973,3 +973,8 @@ input {
     transform: translateX(-50%) translateY(0);
   }
 }
+
+.about-content{
+  line-height: 3rem !important;
+  font-size: 1.7rem !important;
+}
