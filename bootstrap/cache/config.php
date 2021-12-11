@@ -185,7 +185,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/framework/cache/data',
+        'path' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -276,7 +276,7 @@
       array (
         'driver' => 'mysql',
         'url' => NULL,
-        'host' => '127.0.0.1',
+        'host' => '45.84.204.217',
         'port' => '3306',
         'database' => 'u328674980_satex',
         'username' => 'u328674980_satex',
@@ -296,7 +296,7 @@
       array (
         'driver' => 'pgsql',
         'url' => NULL,
-        'host' => '127.0.0.1',
+        'host' => '45.84.204.217',
         'port' => '3306',
         'database' => 'u328674980_satex',
         'username' => 'u328674980_satex',
@@ -311,7 +311,7 @@
       array (
         'driver' => 'sqlsrv',
         'url' => NULL,
-        'host' => '127.0.0.1',
+        'host' => '45.84.204.217',
         'port' => '3306',
         'database' => 'u328674980_satex',
         'username' => 'u328674980_satex',
@@ -365,12 +365,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/app',
+        'root' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/app/public',
+        'root' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\app/public',
         'url' => 'https://satex.amotech.tech/storage',
         'visibility' => 'public',
       ),
@@ -387,7 +387,7 @@
     ),
     'links' => 
     array (
-      '/home/u328674980/domains/amotech.tech/public_html/satex/public/storage' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/app/public',
+      'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\public\\storage' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -519,13 +519,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/logs/laravel.log',
+        'path' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/logs/laravel.log',
+        'path' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -576,7 +576,7 @@
       ),
       'emergency' => 
       array (
-        'path' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/logs/laravel.log',
+        'path' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -633,7 +633,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/home/u328674980/domains/amotech.tech/public_html/satex/resources/views/vendor/mail',
+        0 => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -716,7 +716,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/framework/sessions',
+    'files' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -736,10 +736,10 @@
   array (
     'paths' => 
     array (
-      0 => '/home/u328674980/domains/amotech.tech/public_html/satex/resources/views',
-      1 => '/home/u328674980/domains/amotech.tech/public_html/satex/Modules',
+      0 => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\resources\\views',
+      1 => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\Modules',
     ),
-    'compiled' => '/home/u328674980/domains/amotech.tech/public_html/satex/storage/framework/views',
+    'compiled' => 'C:\\Users\\Vusal Ganboyzada\\Documents\\GitHub\\satexchemie\\storage\\framework\\views',
   ),
   'flare' => 
   array (

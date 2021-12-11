@@ -64,7 +64,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::CrdVBae3rkrnt6Lv',
+            '_route' => 'generated::96FP8nm5JdDVF7wv',
           ),
           1 => NULL,
           2 => 
@@ -686,7 +686,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::AuVDsWdaqZwsGFwx',
+            '_route' => 'generated::TPbiuhDFkAhbqVA8',
           ),
           1 => NULL,
           2 => 
@@ -722,7 +722,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::FONN6zLVVxtvmtwW',
+            '_route' => 'generated::ZG3OdC62ndAIVKRM',
           ),
           1 => NULL,
           2 => 
@@ -852,7 +852,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::r3kjeivmZLDxZ01P',
+            '_route' => 'generated::6NCQfYnlDvCZ58qW',
           ),
           1 => NULL,
           2 => 
@@ -890,7 +890,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::sHx0bJEfQwzk0HbV',
+            '_route' => 'generated::uCFH6rDKM2iInNdM',
           ),
           1 => NULL,
           2 => 
@@ -929,7 +929,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::GABwaiu5glpXBier',
+            '_route' => 'generated::g2lDlLyKyKsAep8y',
           ),
           1 => NULL,
           2 => 
@@ -1081,7 +1081,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::PDEaeCMAH9EfvI2T',
+            '_route' => 'generated::k1fjXrxcRQH00TbU',
           ),
           1 => NULL,
           2 => 
@@ -1101,7 +1101,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::l8eTEXSnPvZlz0Pr',
+            '_route' => 'generated::LboZsafn7GInvmRT',
           ),
           1 => NULL,
           2 => 
@@ -1121,7 +1121,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::NoBp6oU4CdlzKDsi',
+            '_route' => 'generated::1py7Fs0qZscLJsd7',
           ),
           1 => NULL,
           2 => 
@@ -1141,7 +1141,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::c5vJ8fGi78dmtHR1',
+            '_route' => 'generated::ylZnNLw6O0eZkY1j',
           ),
           1 => NULL,
           2 => 
@@ -1180,7 +1180,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::tL6DNBCOanqaTacU',
+            '_route' => 'generated::obuU87l5yQ0i53wa',
           ),
           1 => NULL,
           2 => 
@@ -1994,7 +1994,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::QMgP9CNGjM0u9Alm',
+            '_route' => 'generated::vWBmLHvRaJdTpZgE',
           ),
           1 => 
           array (
@@ -2017,7 +2017,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::jnIJPdMGHl1IMhIB',
+            '_route' => 'generated::GqIOOjXSjiwxvtTI',
           ),
           1 => 
           array (
@@ -2040,7 +2040,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::HWGTtlZ7zaYFM7by',
+            '_route' => 'generated::USqdodiw5tjpZBYI',
           ),
           1 => 
           array (
@@ -2139,7 +2139,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::CrdVBae3rkrnt6Lv' => 
+    'generated::96FP8nm5JdDVF7wv' => 
     array (
       'methods' => 
       array (
@@ -2154,15 +2154,15 @@ app('router')->setCompiledRoutes(
           0 => 'api',
           1 => 'auth:api',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":289:{@xw/ctIJa5J1t9rBSGS8gi7UNQ5ue19Eg042uvckuquY=.a:5:{s:3:"use";a:0:{}s:8:"function";s:77:"function (\\Illuminate\\Http\\Request $request) {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":289:{@aCnhNVpcac6NeCpUikabevclkUNy8ZjKXJTxnCI2UhA=.a:5:{s:3:"use";a:0:{}s:8:"function";s:77:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b417000000000011a674";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542cedb60000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::CrdVBae3rkrnt6Lv',
+        'as' => 'generated::96FP8nm5JdDVF7wv',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2191,7 +2191,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":394:{@YQZdlKtps77JLcjbgkxgEAxcRZFXsL7FJSjC0YChpxI=.a:5:{s:3:"use";a:0:{}s:8:"function";s:181:"function ($key) {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":394:{@ucPIUuBwA/UeRDIWonp6OIbL6Y6xYGVLhpgLYtBNyGY=.a:5:{s:3:"use";a:0:{}s:8:"function";s:181:"function ($key) {
     if(\\in_array($key, [\'en\', \'az\', \'ru\', \'de\'])){
         \\session()->put(\'locale\', $key);
         return \\back();
@@ -2199,7 +2199,7 @@ app('router')->setCompiledRoutes(
     else{
         return \\back();
     }
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b409000000000011a674";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542cedb40000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
@@ -2234,7 +2234,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":390:{@JBldOKxPxfh9yTpOwzkrk4zuPTREJxDWETRu1BzdOnI=.a:5:{s:3:"use";a:0:{}s:8:"function";s:177:"function ($key) {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":390:{@P1/SyNazSjxyXYh96MuO/pgYtn3+hNp9GY2U/aFArjU=.a:5:{s:3:"use";a:0:{}s:8:"function";s:177:"function ($key) {
     if(\\in_array($key, [\'dark\', \'light\'])){
         \\session()->put(\'sitetheme\', $key);
         return \\back();
@@ -2242,7 +2242,7 @@ app('router')->setCompiledRoutes(
     else{
         return \\back();
     }
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b40b000000000011a674";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542cedaa0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
@@ -2317,7 +2317,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":262:{@2HxJgwCaJ0hbt7DykOxxHZ97DonXtoH02ktKipebwA8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:50:"function () { return \\view(\'admin.pages.index\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b40f000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":262:{@DsCzHGpl7xffo5XuWHl9xmCAYRgW6O1aMAhtb9AROfk=.a:5:{s:3:"use";a:0:{}s:8:"function";s:50:"function () { return \\view(\'admin.pages.index\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542cedae0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -2354,7 +2354,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":261:{@Gjr+sXuyj2ew0TzWEsf1AvgVSCj8Sc/gK0qPrLigbY8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:49:"function () { return \\view(\'admin.pages.info\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b401000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":261:{@RsRxvxiklrpIb/S2NIiqUMcKYYmIvqF+EQEPWbVMNV8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:49:"function () { return \\view(\'admin.pages.info\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542cedac0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -2540,7 +2540,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":267:{@cTgz4XnIY65IwYr5L6kyoJvKa2MGJ+dT+qF2AbJirzE=.a:5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'admin.pages.categories\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b407000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":267:{@VYPU2PJE6wY6CRsD7TZ26/HrvvkXrC60yiT4wfY8FGM=.a:5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'admin.pages.categories\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ceda60000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -2800,7 +2800,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":265:{@D/svqu+S7572HrfIM8/fueioDviTx1IVB9qDKMpp+j8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'admin.pages.projects\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4ff000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":265:{@rVxZs29hrJoU99XWMWDlrPWenjXoy0RN4/KIPijkxOU=.a:5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'admin.pages.projects\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced5e0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -3135,7 +3135,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":263:{@4Xawvh8stXAahjTAMuZu95Fh38NzOP4BELpLF3DA8dE=.a:5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.pages.photos\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4e9000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":263:{@9IQ4LiI25zur4oTT8CXoiwqBbetRsddKFEcchEPwU8w=.a:5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.pages.photos\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced540000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -3433,7 +3433,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":265:{@jUsA36mLCW5JqSlIBpVMrwO9ec5AnYqQwW+GZR3noow=.a:5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'admin.pages.services\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4e0000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":265:{@nRLHyWOvnY26a667a2OIuqBdBWHb5iqOQLn4kDqwPnM=.a:5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'admin.pages.services\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced430000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -3619,7 +3619,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":263:{@9mMVgmnwgkMxU2kUy+LAlN+Rkouq5UdnLECFUZpfdmU=.a:5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.pages.slides\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4e6000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":263:{@xTLkzWHy6QWXfIPw9mHmODSVBs3H0alcivsgkq028IE=.a:5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.pages.slides\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced450000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -3805,7 +3805,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":267:{@ASSO8FEWgFNkjq3xh9Ten8BAWDe2WySCUkZYJBbS+g8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'admin.pages.catalogues\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4dc000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":267:{@w9mmFaj5+pBkSIMuhNRoQZMn/JJCMcBZooMjvyIMrrU=.a:5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'admin.pages.catalogues\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced7f0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -3991,7 +3991,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":265:{@N+7aCnSzhqItP6VHCHR7SlRNpxcnBPKAS8Bwi9bO9FA=.a:5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'admin.pages.partners\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4d2000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":265:{@Eo0vZ53fqufhPZAkY7TSojC+gWnNeVHbDbiqTF7qTLE=.a:5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'admin.pages.partners\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced710000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -4177,7 +4177,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":266:{@T5YsjfuRBiK7X4Dg4jARMlkqQtIS4ttIFoEI5QZCFts=.a:5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.pages.inquiries\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4c8000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":266:{@tN/hH64Apbm/J/i8/x+5KTJX9250KVuzUZ7g/QX02no=.a:5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.pages.inquiries\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced6b0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -4289,7 +4289,7 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":271:{@+y/yqr1zNquScGKfnVpIFGYEps6Hdli/K7PNiui0Lus=.a:5:{s:3:"use";a:0:{}s:8:"function";s:59:"function () { return \\view(\'Amoshop.Views.admin.orders\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4cc000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":271:{@oiHWwTCARfqGlhgLzHB2QikQdqabolyjqFihWczHkbI=.a:5:{s:3:"use";a:0:{}s:8:"function";s:59:"function () { return \\view(\'Amoshop.Views.admin.orders\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced6f0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -4400,10 +4400,10 @@ app('router')->setCompiledRoutes(
           1 => 'auth',
           2 => 'admin_check',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":363:{@Gsp6PNK81C2iu5LCQqgwc5ad8fFRrRyWFf1UTPhmFJk=.a:5:{s:3:"use";a:0:{}s:8:"function";s:150:"function ($id) { 
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":363:{@M8Z0Q1xRwrRxrT1qGpSdY1OKbMwWTtH2/ePUEMpe5gw=.a:5:{s:3:"use";a:0:{}s:8:"function";s:150:"function ($id) { 
     $order = \\Modules\\Amoshop\\Models\\Order::find($id);
     return \\view(\'Amoshop.Views.admin.order_details\', \\compact([\'order\']));
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4c0000000000011a674";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced630000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => '/admin',
         'where' => 
@@ -4439,9 +4439,9 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":258:{@uKuxFLLYde2fbIXuvVBueh6yuUCgrXMJnh8y7KRzIE0=.a:5:{s:3:"use";a:0:{}s:8:"function";s:46:"function () {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":258:{@Hre+a8kRSIo1Np3VY9qcHiRPgQ9BCb4SwkXRBj02SIw=.a:5:{s:3:"use";a:0:{}s:8:"function";s:46:"function () {
     return \\view(\'dashboard\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b40d000000000011a674";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ceda80000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
@@ -4499,7 +4499,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::AuVDsWdaqZwsGFwx' => 
+    'generated::TPbiuhDFkAhbqVA8' => 
     array (
       'methods' => 
       array (
@@ -4520,7 +4520,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::AuVDsWdaqZwsGFwx',
+        'as' => 'generated::TPbiuhDFkAhbqVA8',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4572,7 +4572,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::FONN6zLVVxtvmtwW' => 
+    'generated::ZG3OdC62ndAIVKRM' => 
     array (
       'methods' => 
       array (
@@ -4593,7 +4593,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::FONN6zLVVxtvmtwW',
+        'as' => 'generated::ZG3OdC62ndAIVKRM',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4904,7 +4904,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::r3kjeivmZLDxZ01P' => 
+    'generated::6NCQfYnlDvCZ58qW' => 
     array (
       'methods' => 
       array (
@@ -4925,7 +4925,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::r3kjeivmZLDxZ01P',
+        'as' => 'generated::6NCQfYnlDvCZ58qW',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4976,7 +4976,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::sHx0bJEfQwzk0HbV' => 
+    'generated::uCFH6rDKM2iInNdM' => 
     array (
       'methods' => 
       array (
@@ -4989,7 +4989,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":586:{@6SjNgQfQw2cRhPIsMrMZ2iegCPh9oXE0415+n3Is9zg=.a:5:{s:3:"use";a:0:{}s:8:"function";s:373:"function (\\Illuminate\\Http\\Request $request) {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":586:{@F3rZ2/LrRTvFccHesEP4sCtnabhU6yWqSu2F3VdVGcY=.a:5:{s:3:"use";a:0:{}s:8:"function";s:373:"function (\\Illuminate\\Http\\Request $request) {
     $accessToken = \\App\\Http\\Controllers\\ApiController::getAccess();
 
     $response = \\Http::withHeaders([
@@ -4999,13 +4999,13 @@ app('router')->setCompiledRoutes(
 
     return $response->json();
 
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4b3000000000011a674";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced120000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::sHx0bJEfQwzk0HbV',
+        'as' => 'generated::uCFH6rDKM2iInNdM',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5056,7 +5056,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::GABwaiu5glpXBier' => 
+    'generated::g2lDlLyKyKsAep8y' => 
     array (
       'methods' => 
       array (
@@ -5070,7 +5070,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":799:{@wkBCS1+9jxFcZCOkbkho3xH1tapWFLd7Hf5p6EsNQX8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:586:"function () {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":799:{@HYdTylPNvoJPotfUDUpH5PQkuN+gmUqaj/XgVfQgTo4=.a:5:{s:3:"use";a:0:{}s:8:"function";s:586:"function () {
     if(\\Auth::check()){
         if(\\Auth::user()->role == \'customer\'){
             $cart_items = \\Modules\\Amoshop\\Models\\CartItem::where(\'customer_id\', \\Auth::id())->get();
@@ -5087,13 +5087,13 @@ app('router')->setCompiledRoutes(
         $session_retrieve = 1;
     }
     return \\view(\'frontend.pages.checkout\', \\compact([\'cart_items\', \'session_retrieve\'])); 
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4b4000000000011a674";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced170000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::GABwaiu5glpXBier',
+        'as' => 'generated::g2lDlLyKyKsAep8y',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5407,7 +5407,7 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":288:{@cRennmkF5eh9453e0Ziz/yfrUJ2563t1+UFMGW81cKA=.a:5:{s:3:"use";a:0:{}s:8:"function";s:76:"function () { return \\view(\'frontend.pages.index\')->with(\'is_home\', true); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4a1000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":288:{@kaIJrdmVjBgFabcbundoyj+dPMFyJawjtxgwpibkRZc=.a:5:{s:3:"use";a:0:{}s:8:"function";s:76:"function () { return \\view(\'frontend.pages.index\')->with(\'is_home\', true); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced0c0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
@@ -5428,7 +5428,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::PDEaeCMAH9EfvI2T' => 
+    'generated::k1fjXrxcRQH00TbU' => 
     array (
       'methods' => 
       array (
@@ -5444,13 +5444,13 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":265:{@rc/C2uDxq1dJwS43i/xnLrj+BHX8NtopMAkf7Xoia1U=.a:5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'frontend.pages.about\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4a3000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":265:{@X6Ei0Zbd6iKHwV+QKiiCb58WSommeZ7WklK9M51aeNk=.a:5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'frontend.pages.about\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced020000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::PDEaeCMAH9EfvI2T',
+        'as' => 'generated::k1fjXrxcRQH00TbU',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5465,7 +5465,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::l8eTEXSnPvZlz0Pr' => 
+    'generated::LboZsafn7GInvmRT' => 
     array (
       'methods' => 
       array (
@@ -5481,13 +5481,13 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":267:{@iodSQPxPuTXT61dCmUQ29kdBkYJi3Sy1P9KduUPjEv8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'frontend.pages.contact\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4a5000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":267:{@oZcA1wDzZDFsIzItgGC86HuAD+jfilL7did/mXLXpCM=.a:5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'frontend.pages.contact\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced000000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::l8eTEXSnPvZlz0Pr',
+        'as' => 'generated::LboZsafn7GInvmRT',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5502,7 +5502,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::NoBp6oU4CdlzKDsi' => 
+    'generated::1py7Fs0qZscLJsd7' => 
     array (
       'methods' => 
       array (
@@ -5518,13 +5518,13 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":267:{@LEIFO9HFkbP7hqAybd8B4dqKxiZinYSU116UtWT5jjk=.a:5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'frontend.pages.gallery\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b4a7000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":267:{@EsCKOH09mkj3ZBI3IDIdLKoZaf1rex1FO0FTUGEi8Z4=.a:5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'frontend.pages.gallery\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced060000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::NoBp6oU4CdlzKDsi',
+        'as' => 'generated::1py7Fs0qZscLJsd7',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5539,7 +5539,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::c5vJ8fGi78dmtHR1' => 
+    'generated::ylZnNLw6O0eZkY1j' => 
     array (
       'methods' => 
       array (
@@ -5555,13 +5555,13 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":270:{@7+yM87974VdpUwDV77gRnTvBqJF2HFvv2bRpipIDta8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:58:"function () { return \\view(\'frontend.pages.catalogues\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b499000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":270:{@aCp36BKdn0skAIY2M+zurzO3mG6T+IuS/JQyUen8zEE=.a:5:{s:3:"use";a:0:{}s:8:"function";s:58:"function () { return \\view(\'frontend.pages.catalogues\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced040000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::c5vJ8fGi78dmtHR1',
+        'as' => 'generated::ylZnNLw6O0eZkY1j',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5613,7 +5613,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::tL6DNBCOanqaTacU' => 
+    'generated::obuU87l5yQ0i53wa' => 
     array (
       'methods' => 
       array (
@@ -5629,13 +5629,13 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":268:{@JTI/K0POEA8GQICw7C6EIhplDDtb5SHjJApmqU/BIsw=.a:5:{s:3:"use";a:0:{}s:8:"function";s:56:"function () { return \\view(\'frontend.pages.projects\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b49a000000000011a674";}}',
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":268:{@RjjsCgRHCLeKTfCDT8MKalJ5Opi+o8lvr9ihaJtRJi8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:56:"function () { return \\view(\'frontend.pages.projects\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced390000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::tL6DNBCOanqaTacU',
+        'as' => 'generated::obuU87l5yQ0i53wa',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5650,7 +5650,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::QMgP9CNGjM0u9Alm' => 
+    'generated::vWBmLHvRaJdTpZgE' => 
     array (
       'methods' => 
       array (
@@ -5666,19 +5666,19 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":591:{@So5TSjhdIQF3mf5LkZGQ/KUP0uucMOht3d0J/cK0H9w=.a:5:{s:3:"use";a:0:{}s:8:"function";s:378:"function ($id) {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":591:{@vMfJn+Opcv9EfXLzrDwg6fnsyyL1J69s0ssd47ikqd4=.a:5:{s:3:"use";a:0:{}s:8:"function";s:378:"function ($id) {
         $project = \\App\\Models\\Project::where(\'id\', $id)->firstorfail();
         $category = \\App\\Models\\Navigation::where(\'id\', $project->categ_id)->first();
         $project_photos = \\App\\Models\\ProjectPhoto::where(\'project_id\', $project->id)->get();
 
         return \\view(\'frontend.pages.project\', \\compact([\'project_photos\', \'project\', \'category\'])); 
-    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b49c000000000011a674";}}',
+    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced3f0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::QMgP9CNGjM0u9Alm',
+        'as' => 'generated::vWBmLHvRaJdTpZgE',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5693,7 +5693,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::jnIJPdMGHl1IMhIB' => 
+    'generated::GqIOOjXSjiwxvtTI' => 
     array (
       'methods' => 
       array (
@@ -5709,17 +5709,17 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":503:{@b+VrNN7NP+HjfzfMQR6vqTdx6wCHlIyvA+18aut6YRc=.a:5:{s:3:"use";a:0:{}s:8:"function";s:290:"function ($categ) {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":503:{@//oXpN1YnrRsEy9XDRVLPNiHgaUHvHfYysrV9pIWpyk=.a:5:{s:3:"use";a:0:{}s:8:"function";s:290:"function ($categ) {
         $category = \\App\\Models\\Navigation::where(\'route\', $categ)->first();
         $subcategories = \\App\\Models\\Navigation::where(\'parent_id\', $category->id)->get();
         return \\view(\'frontend.pages.projects_slider\', \\compact([\'category\', \'subcategories\']));
-    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b49e000000000011a674";}}',
+    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced3d0000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::jnIJPdMGHl1IMhIB',
+        'as' => 'generated::GqIOOjXSjiwxvtTI',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5734,7 +5734,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::HWGTtlZ7zaYFM7by' => 
+    'generated::USqdodiw5tjpZBYI' => 
     array (
       'methods' => 
       array (
@@ -5750,18 +5750,18 @@ app('router')->setCompiledRoutes(
           1 => 'lang_check',
           2 => 'reg_visit',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":538:{@/+cc4qPG61of3+1uGTMHv4J1Lp5k4EeMde/tJYsqfGg=.a:5:{s:3:"use";a:0:{}s:8:"function";s:325:"function ($categ, $subcateg) { 
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":538:{@KC/PdMGXMcd9bUBU3gtd2q6apxTAABXdIGTmc+Vq+8Q=.a:5:{s:3:"use";a:0:{}s:8:"function";s:325:"function ($categ, $subcateg) { 
         $category = \\App\\Models\\Navigation::where(\'route\', $subcateg)->where(\'parent_id\', \'!=\', null)->first();
         $projects = \\App\\Models\\Project::where(\'categ_id\', $category->id)->get();
         
         return \\view(\'frontend.pages.projects\', \\compact([\'projects\', \'category\']));
-    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003854b490000000000011a674";}}',
+    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000542ced330000000050431835";}}',
         'namespace' => 'App\\Http\\Controllers',
         'prefix' => NULL,
         'where' => 
         array (
         ),
-        'as' => 'generated::HWGTtlZ7zaYFM7by',
+        'as' => 'generated::USqdodiw5tjpZBYI',
       ),
       'fallback' => false,
       'defaults' => 

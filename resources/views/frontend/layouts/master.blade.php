@@ -109,7 +109,7 @@
                                     <div class="form-group">
                                         <div class="entry-box">
                                             <label>{{ __('main.form.fullname') }} *</label>
-                                            <input id="form_name" type="text" name="name" placeholder="Type your name"
+                                            <input id="form_name" type="text" name="name" placeholder="..."
                                                 required="required" data-error="name is required.">
                                         </div>
                                         <div class="help-block with-errors"></div>
@@ -119,7 +119,7 @@
                                         <div class="entry-box">
                                             <label>{{ __('main.form.email') }} *</label>
                                             <input id="form_email" type="email" name="email"
-                                                placeholder="Type your Email Address" required="required"
+                                                placeholder="..." required="required"
                                                 data-error="Valid email is required.">
                                         </div>
                                         <div class="help-block with-errors"></div>
@@ -129,7 +129,7 @@
                                         <div class="entry-box">
                                             <label>{{ __('main.form.message') }}</label>
                                             <textarea id="form_message" class="form-control" name="message"
-                                                placeholder="Tell us about you and the world" required="required"
+                                                placeholder="..." required="required"
                                                 data-error="Please,leave us a message."></textarea>
                                         </div>
                                         <div class="help-block with-errors"></div>

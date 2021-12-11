@@ -179,8 +179,9 @@
                             <div class="col-md-4 col-lg-3">
                                 <div class="product-box">
                                     <img class="product-img" 
-                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-dsn-src="{{ asset($product->thumb) }}" alt="{{ $product->{'name_'.session('locale')} }}">
+                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                        data-dsn-src="{{ asset($product->thumb) }}" alt="{{ $product->{'name_'.session('locale')} }}"
+                                    >
                                       
                                     <form class="addtocart-toolbar">
                                         <span class="price">
