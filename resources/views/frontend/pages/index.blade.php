@@ -175,7 +175,7 @@
                         </div>
                         
                         <div class="row">
-                            @foreach(\App\Models\Project::orderBy('id', 'desc')->take(6)->get() as $product)
+                            @foreach(\App\Models\Project::orderBy('id', 'desc')->take(12)->get() as $product)
                             <div class="col-md-3 col-lg-2">
                                 <div class="product-box">
                                     <a href="/products/{{ $product->id }}">
