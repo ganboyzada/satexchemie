@@ -80,7 +80,7 @@
         </h2>
     </div>
 
-    <div class="wrapper-client d-grid grid-lg-3 grid-sm-2">
+    <div class="wrapper-client d-grid grid-lg-4 grid-sm-3">
         @foreach(\App\Models\Partner::get() as $partner)
         <div class="logo-box border">
             <div class="logo-box-inner style-box">
